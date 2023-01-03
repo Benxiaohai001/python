@@ -20,6 +20,7 @@ def search_word_num(string):
             string_dic[i] = string_dic[i] + 1
         else:
             string_dic[i] = 1
+    
     print(string_dic)
 
 search_word_num("hello world hello")
